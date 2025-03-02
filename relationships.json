@@ -1,0 +1,54 @@
+[
+  { "dimension": "Quality and Reliability", "area": "Testing", "weight": 0.12 },
+  {
+    "dimension": "Quality and Reliability",
+    "area": "Architecture",
+    "weight": 0.1
+  },
+  {
+    "dimension": "Quality and Reliability",
+    "area": "Security & Compliance",
+    "weight": 0.09
+  },
+  {
+    "dimension": "Quality and Reliability",
+    "area": "Monitoring",
+    "weight": 0.08
+  },
+  { "dimension": "Quality and Reliability", "area": "CI/CD", "weight": 0.07 },
+  {
+    "dimension": "Faster Iterations and Innovation",
+    "area": "CI/CD",
+    "weight": 0.11
+  },
+  {
+    "dimension": "Faster Iterations and Innovation",
+    "area": "Technology",
+    "weight": 0.1
+  },
+  {
+    "dimension": "Faster Iterations and Innovation",
+    "area": "Experiment",
+    "weight": 0.1
+  },
+  {
+    "dimension": "Faster Iterations and Innovation",
+    "area": "DevEx",
+    "weight": 0.08
+  },
+  {
+    "dimension": "Faster Iterations and Innovation",
+    "area": "Learning & Development",
+    "weight": 0.07
+  },
+  {
+    "dimension": "Security and Privacy",
+    "area": "Security & Compliance",
+    "weight": 0.13
+  },
+  {
+    "dimension": "Better Collaboration",
+    "area": "Knowledge Sharing",
+    "weight": 0.11
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "Craftsmanship": [
+    { "name": "Documentation", "impact": "medium", "baseWeight": 0.5, "color": "#3b82f6" },
+    { "name": "Architecture", "impact": "high", "baseWeight": 0.8, "color": "#3b82f6" },
+    { "name": "Testing", "impact": "high", "baseWeight": 0.8, "color": "#3b82f6" },
+    { "name": "Security & Compliance", "impact": "medium", "baseWeight": 0.5, "color": "#3b82f6" },
+    { "name": "Performance", "impact": "medium", "baseWeight": 0.5, "color": "#3b82f6" }
+  ],
+  "Delivery": [
+    { "name": "CI/CD", "impact": "high", "baseWeight": 0.8, "color": "#10b981" },
+    { "name": "Team Commitments", "impact": "medium", "baseWeight": 0.5, "color": "#10b981" },
+    { "name": "Individual Commitments", "impact": "low", "baseWeight": 0.3, "color": "#10b981" },
+    { "name": "Maintenance", "impact": "medium", "baseWeight": 0.5, "color": "#10b981" },
+    { "name": "Monitoring", "impact": "high", "baseWeight": 0.8, "color": "#10b981" },
+    { "name": "DORA", "impact": "medium", "baseWeight": 0.5, "color": "#10b981" }
+  ],
+  "Collaboration": [
+    { "name": "Feedback", "impact": "high", "baseWeight": 0.8, "color": "#f97316" },
+    { "name": "Onboarding", "impact": "medium", "baseWeight": 0.5, "color": "#f97316" },
+    { "name": "Ownership", "impact": "high", "baseWeight": 0.8, "color": "#f97316" },
+    { "name": "Knowledge Sharing", "impact": "high", "baseWeight": 0.8, "color": "#f97316" },
+    { "name": "UX Dependencies", "impact": "medium", "baseWeight": 0.5, "color": "#f97316" },
+    { "name": "Other Teams", "impact": "medium", "baseWeight": 0.5, "color": "#f97316" },
+    { "name": "DevEx", "impact": "medium", "baseWeight": 0.5, "color": "#f97316" },
+    { "name": "Decision Making", "impact": "high", "baseWeight": 0.8, "color": "#f97316" }
+  ],
+  "Innovation": [
+    { "name": "Technology", "impact": "high", "baseWeight": 0.8, "color": "#8b5cf6" },
+    { "name": "Experiment", "impact": "medium", "baseWeight": 0.5, "color": "#8b5cf6" },
+    { "name": "Learning & Development", "impact": "high", "baseWeight": 0.8, "color": "#8b5cf6" },
+    { "name": "Tools", "impact": "medium", "baseWeight": 0.5, "color": "#8b5cf6" }
+  ]
+}
