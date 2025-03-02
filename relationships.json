@@ -1,54 +1,136 @@
 [
-  { "dimension": "Quality and Reliability", "area": "Testing", "weight": 0.12 },
-  {
-    "dimension": "Quality and Reliability",
-    "area": "Architecture",
-    "weight": 0.1
-  },
-  {
-    "dimension": "Quality and Reliability",
-    "area": "Security & Compliance",
-    "weight": 0.09
-  },
-  {
-    "dimension": "Quality and Reliability",
-    "area": "Monitoring",
-    "weight": 0.08
-  },
-  { "dimension": "Quality and Reliability", "area": "CI/CD", "weight": 0.07 },
-  {
-    "dimension": "Faster Iterations and Innovation",
-    "area": "CI/CD",
-    "weight": 0.11
-  },
-  {
-    "dimension": "Faster Iterations and Innovation",
-    "area": "Technology",
-    "weight": 0.1
-  },
-  {
-    "dimension": "Faster Iterations and Innovation",
-    "area": "Experiment",
-    "weight": 0.1
-  },
-  {
-    "dimension": "Faster Iterations and Innovation",
-    "area": "DevEx",
-    "weight": 0.08
-  },
-  {
-    "dimension": "Faster Iterations and Innovation",
-    "area": "Learning & Development",
-    "weight": 0.07
-  },
-  {
-    "dimension": "Security and Privacy",
-    "area": "Security & Compliance",
-    "weight": 0.13
-  },
-  {
-    "dimension": "Better Collaboration",
-    "area": "Knowledge Sharing",
-    "weight": 0.11
-  }
+  // Quality and Reliability relationships
+  { "dimension": "Quality and Reliability", "area": "Testing", "weight": 0.14 },
+  { "dimension": "Quality and Reliability", "area": "Architecture", "weight": 0.11 },
+  { "dimension": "Quality and Reliability", "area": "Security & Compliance", "weight": 0.10 },
+  { "dimension": "Quality and Reliability", "area": "CI/CD", "weight": 0.09 },
+  { "dimension": "Quality and Reliability", "area": "Documentation", "weight": 0.07 },
+  { "dimension": "Quality and Reliability", "area": "Monitoring", "weight": 0.08 },
+  
+  // Faster Iterations and Innovation relationships
+  { "dimension": "Faster Iterations and Innovation", "area": "CI/CD", "weight": 0.13 },
+  { "dimension": "Faster Iterations and Innovation", "area": "DevEx", "weight": 0.11 },
+  { "dimension": "Faster Iterations and Innovation", "area": "Technology", "weight": 0.10 },
+  { "dimension": "Faster Iterations and Innovation", "area": "Experiment", "weight": 0.12 },
+  { "dimension": "Faster Iterations and Innovation", "area": "Tools", "weight": 0.09 },
+  { "dimension": "Faster Iterations and Innovation", "area": "Testing", "weight": 0.07 },
+  
+  // Better Alignment with Customer Needs relationships
+  { "dimension": "Better Alignment with Customer Needs", "area": "Feedback", "weight": 0.13 },
+  { "dimension": "Better Alignment with Customer Needs", "area": "UX Dependencies", "weight": 0.11 },
+  { "dimension": "Better Alignment with Customer Needs", "area": "Knowledge Sharing", "weight": 0.08 },
+  { "dimension": "Better Alignment with Customer Needs", "area": "Team Commitments", "weight": 0.09 },
+  { "dimension": "Better Alignment with Customer Needs", "area": "Decision Making", "weight": 0.07 },
+  
+  // Sustainability and Long-term Focus relationships
+  { "dimension": "Sustainability and Long-term Focus", "area": "Architecture", "weight": 0.13 },
+  { "dimension": "Sustainability and Long-term Focus", "area": "Documentation", "weight": 0.10 },
+  { "dimension": "Sustainability and Long-term Focus", "area": "Maintenance", "weight": 0.12 },
+  { "dimension": "Sustainability and Long-term Focus", "area": "Learning & Development", "weight": 0.09 },
+  { "dimension": "Sustainability and Long-term Focus", "area": "Security & Compliance", "weight": 0.08 },
+  
+  // Efficiency and Fewer Dependencies relationships
+  { "dimension": "Efficiency and Fewer Dependencies", "area": "Architecture", "weight": 0.11 },
+  { "dimension": "Efficiency and Fewer Dependencies", "area": "Other Teams", "weight": 0.12 },
+  { "dimension": "Efficiency and Fewer Dependencies", "area": "UX Dependencies", "weight": 0.10 },
+  { "dimension": "Efficiency and Fewer Dependencies", "area": "DevEx", "weight": 0.09 },
+  { "dimension": "Efficiency and Fewer Dependencies", "area": "CI/CD", "weight": 0.08 },
+  { "dimension": "Efficiency and Fewer Dependencies", "area": "Individual Commitments", "weight": 0.07 },
+  
+  // Performance and Responsiveness relationships
+  { "dimension": "Performance and Responsiveness", "area": "Performance", "weight": 0.14 },
+  { "dimension": "Performance and Responsiveness", "area": "Architecture", "weight": 0.10 },
+  { "dimension": "Performance and Responsiveness", "area": "Testing", "weight": 0.09 },
+  { "dimension": "Performance and Responsiveness", "area": "Technology", "weight": 0.08 },
+  { "dimension": "Performance and Responsiveness", "area": "Monitoring", "weight": 0.11 },
+  
+  // Scalability relationships
+  { "dimension": "Scalability", "area": "Architecture", "weight": 0.14 },
+  { "dimension": "Scalability", "area": "Technology", "weight": 0.11 },
+  { "dimension": "Scalability", "area": "Performance", "weight": 0.10 },
+  { "dimension": "Scalability", "area": "Testing", "weight": 0.07 },
+  { "dimension": "Scalability", "area": "Documentation", "weight": 0.06 },
+  { "dimension": "Scalability", "area": "Learning & Development", "weight": 0.05 },
+  
+  // Flexibility and Speed of Changes relationships
+  { "dimension": "Flexibility and Speed of Changes", "area": "Architecture", "weight": 0.12 },
+  { "dimension": "Flexibility and Speed of Changes", "area": "CI/CD", "weight": 0.13 },
+  { "dimension": "Flexibility and Speed of Changes", "area": "Testing", "weight": 0.10 },
+  { "dimension": "Flexibility and Speed of Changes", "area": "DevEx", "weight": 0.09 },
+  { "dimension": "Flexibility and Speed of Changes", "area": "Documentation", "weight": 0.07 },
+  
+  // Security and Privacy relationships
+  { "dimension": "Security and Privacy", "area": "Security & Compliance", "weight": 0.15 },
+  { "dimension": "Security and Privacy", "area": "Testing", "weight": 0.10 },
+  { "dimension": "Security and Privacy", "area": "Architecture", "weight": 0.11 },
+  { "dimension": "Security and Privacy", "area": "Documentation", "weight": 0.08 },
+  { "dimension": "Security and Privacy", "area": "CI/CD", "weight": 0.07 },
+  
+  // User Experience and Consistency relationships
+  { "dimension": "User Experience and Consistency", "area": "UX Dependencies", "weight": 0.14 },
+  { "dimension": "User Experience and Consistency", "area": "Feedback", "weight": 0.11 },
+  { "dimension": "User Experience and Consistency", "area": "Testing", "weight": 0.09 },
+  { "dimension": "User Experience and Consistency", "area": "Knowledge Sharing", "weight": 0.08 },
+  { "dimension": "User Experience and Consistency", "area": "Documentation", "weight": 0.07 },
+  
+  // Add more realistic relationships for the remaining dimensions...
+  { "dimension": "Maintainability and Cost Savings", "area": "Maintenance", "weight": 0.13 },
+  { "dimension": "Maintainability and Cost Savings", "area": "Architecture", "weight": 0.12 },
+  { "dimension": "Maintainability and Cost Savings", "area": "Documentation", "weight": 0.10 },
+  { "dimension": "Maintainability and Cost Savings", "area": "Testing", "weight": 0.09 },
+  { "dimension": "Maintainability and Cost Savings", "area": "Tools", "weight": 0.07 },
+  
+  { "dimension": "Faster Incident Response", "area": "Monitoring", "weight": 0.14 },
+  { "dimension": "Faster Incident Response", "area": "CI/CD", "weight": 0.11 },
+  { "dimension": "Faster Incident Response", "area": "Documentation", "weight": 0.09 },
+  { "dimension": "Faster Incident Response", "area": "Ownership", "weight": 0.10 },
+  { "dimension": "Faster Incident Response", "area": "Team Commitments", "weight": 0.08 },
+  
+  { "dimension": "Data-driven Improvements", "area": "Monitoring", "weight": 0.12 },
+  { "dimension": "Data-driven Improvements", "area": "DORA", "weight": 0.13 },
+  { "dimension": "Data-driven Improvements", "area": "Feedback", "weight": 0.09 },
+  { "dimension": "Data-driven Improvements", "area": "Testing", "weight": 0.08 },
+  { "dimension": "Data-driven Improvements", "area": "CI/CD", "weight": 0.07 },
+  
+  { "dimension": "Prevention of Future Problems", "area": "Testing", "weight": 0.13 },
+  { "dimension": "Prevention of Future Problems", "area": "Architecture", "weight": 0.12 },
+  { "dimension": "Prevention of Future Problems", "area": "Monitoring", "weight": 0.10 },
+  { "dimension": "Prevention of Future Problems", "area": "Security & Compliance", "weight": 0.09 },
+  { "dimension": "Prevention of Future Problems", "area": "Documentation", "weight": 0.08 },
+  
+  { "dimension": "Faster Delivery of Functionality", "area": "CI/CD", "weight": 0.14 },
+  { "dimension": "Faster Delivery of Functionality", "area": "Team Commitments", "weight": 0.11 },
+  { "dimension": "Faster Delivery of Functionality", "area": "DevEx", "weight": 0.10 },
+  { "dimension": "Faster Delivery of Functionality", "area": "Testing", "weight": 0.09 },
+  { "dimension": "Faster Delivery of Functionality", "area": "Individual Commitments", "weight": 0.08 },
+  
+  { "dimension": "Higher Code Quality", "area": "Testing", "weight": 0.13 },
+  { "dimension": "Higher Code Quality", "area": "CI/CD", "weight": 0.11 },
+  { "dimension": "Higher Code Quality", "area": "Architecture", "weight": 0.10 },
+  { "dimension": "Higher Code Quality", "area": "Documentation", "weight": 0.08 },
+  { "dimension": "Higher Code Quality", "area": "Learning & Development", "weight": 0.07 },
+  
+  { "dimension": "Better Collaboration", "area": "Knowledge Sharing", "weight": 0.13 },
+  { "dimension": "Better Collaboration", "area": "Feedback", "weight": 0.11 },
+  { "dimension": "Better Collaboration", "area": "Ownership", "weight": 0.12 },
+  { "dimension": "Better Collaboration", "area": "Other Teams", "weight": 0.09 },
+  { "dimension": "Better Collaboration", "area": "Decision Making", "weight": 0.10 },
+  
+  { "dimension": "Efficient Use of Resources", "area": "Team Commitments", "weight": 0.12 },
+  { "dimension": "Efficient Use of Resources", "area": "Individual Commitments", "weight": 0.11 },
+  { "dimension": "Efficient Use of Resources", "area": "CI/CD", "weight": 0.09 },
+  { "dimension": "Efficient Use of Resources", "area": "DevEx", "weight": 0.10 },
+  { "dimension": "Efficient Use of Resources", "area": "Tools", "weight": 0.08 },
+  
+  { "dimension": "Balance between Short and Long Term", "area": "Decision Making", "weight": 0.13 },
+  { "dimension": "Balance between Short and Long Term", "area": "Architecture", "weight": 0.11 },
+  { "dimension": "Balance between Short and Long Term", "area": "Team Commitments", "weight": 0.10 },
+  { "dimension": "Balance between Short and Long Term", "area": "Learning & Development", "weight": 0.09 },
+  { "dimension": "Balance between Short and Long Term", "area": "Technology", "weight": 0.08 },
+  
+  { "dimension": "Less Context Switching and More Efficient Work", "area": "Individual Commitments", "weight": 0.13 },
+  { "dimension": "Less Context Switching and More Efficient Work", "area": "Team Commitments", "weight": 0.11 },
+  { "dimension": "Less Context Switching and More Efficient Work", "area": "DevEx", "weight": 0.10 },
+  { "dimension": "Less Context Switching and More Efficient Work", "area": "Tools", "weight": 0.09 },
+  { "dimension": "Less Context Switching and More Efficient Work", "area": "Other Teams", "weight": 0.08 }
 ]
