@@ -1,5 +1,4 @@
 [
-  // Quality and Reliability relationships
   { "dimension": "Quality and Reliability", "area": "Testing", "weight": 0.14 },
   { "dimension": "Quality and Reliability", "area": "Architecture", "weight": 0.11 },
   { "dimension": "Quality and Reliability", "area": "Security & Compliance", "weight": 0.10 },
@@ -7,7 +6,6 @@
   { "dimension": "Quality and Reliability", "area": "Documentation", "weight": 0.07 },
   { "dimension": "Quality and Reliability", "area": "Monitoring", "weight": 0.08 },
   
-  // Faster Iterations and Innovation relationships
   { "dimension": "Faster Iterations and Innovation", "area": "CI/CD", "weight": 0.13 },
   { "dimension": "Faster Iterations and Innovation", "area": "DevEx", "weight": 0.11 },
   { "dimension": "Faster Iterations and Innovation", "area": "Technology", "weight": 0.10 },
@@ -15,21 +13,18 @@
   { "dimension": "Faster Iterations and Innovation", "area": "Tools", "weight": 0.09 },
   { "dimension": "Faster Iterations and Innovation", "area": "Testing", "weight": 0.07 },
   
-  // Better Alignment with Customer Needs relationships
   { "dimension": "Better Alignment with Customer Needs", "area": "Feedback", "weight": 0.13 },
   { "dimension": "Better Alignment with Customer Needs", "area": "UX Dependencies", "weight": 0.11 },
   { "dimension": "Better Alignment with Customer Needs", "area": "Knowledge Sharing", "weight": 0.08 },
   { "dimension": "Better Alignment with Customer Needs", "area": "Team Commitments", "weight": 0.09 },
   { "dimension": "Better Alignment with Customer Needs", "area": "Decision Making", "weight": 0.07 },
   
-  // Sustainability and Long-term Focus relationships
   { "dimension": "Sustainability and Long-term Focus", "area": "Architecture", "weight": 0.13 },
   { "dimension": "Sustainability and Long-term Focus", "area": "Documentation", "weight": 0.10 },
   { "dimension": "Sustainability and Long-term Focus", "area": "Maintenance", "weight": 0.12 },
   { "dimension": "Sustainability and Long-term Focus", "area": "Learning & Development", "weight": 0.09 },
   { "dimension": "Sustainability and Long-term Focus", "area": "Security & Compliance", "weight": 0.08 },
   
-  // Efficiency and Fewer Dependencies relationships
   { "dimension": "Efficiency and Fewer Dependencies", "area": "Architecture", "weight": 0.11 },
   { "dimension": "Efficiency and Fewer Dependencies", "area": "Other Teams", "weight": 0.12 },
   { "dimension": "Efficiency and Fewer Dependencies", "area": "UX Dependencies", "weight": 0.10 },
@@ -37,14 +32,12 @@
   { "dimension": "Efficiency and Fewer Dependencies", "area": "CI/CD", "weight": 0.08 },
   { "dimension": "Efficiency and Fewer Dependencies", "area": "Individual Commitments", "weight": 0.07 },
   
-  // Performance and Responsiveness relationships
   { "dimension": "Performance and Responsiveness", "area": "Performance", "weight": 0.14 },
   { "dimension": "Performance and Responsiveness", "area": "Architecture", "weight": 0.10 },
   { "dimension": "Performance and Responsiveness", "area": "Testing", "weight": 0.09 },
   { "dimension": "Performance and Responsiveness", "area": "Technology", "weight": 0.08 },
   { "dimension": "Performance and Responsiveness", "area": "Monitoring", "weight": 0.11 },
   
-  // Scalability relationships
   { "dimension": "Scalability", "area": "Architecture", "weight": 0.14 },
   { "dimension": "Scalability", "area": "Technology", "weight": 0.11 },
   { "dimension": "Scalability", "area": "Performance", "weight": 0.10 },
@@ -52,28 +45,24 @@
   { "dimension": "Scalability", "area": "Documentation", "weight": 0.06 },
   { "dimension": "Scalability", "area": "Learning & Development", "weight": 0.05 },
   
-  // Flexibility and Speed of Changes relationships
   { "dimension": "Flexibility and Speed of Changes", "area": "Architecture", "weight": 0.12 },
   { "dimension": "Flexibility and Speed of Changes", "area": "CI/CD", "weight": 0.13 },
   { "dimension": "Flexibility and Speed of Changes", "area": "Testing", "weight": 0.10 },
   { "dimension": "Flexibility and Speed of Changes", "area": "DevEx", "weight": 0.09 },
   { "dimension": "Flexibility and Speed of Changes", "area": "Documentation", "weight": 0.07 },
   
-  // Security and Privacy relationships
   { "dimension": "Security and Privacy", "area": "Security & Compliance", "weight": 0.15 },
   { "dimension": "Security and Privacy", "area": "Testing", "weight": 0.10 },
   { "dimension": "Security and Privacy", "area": "Architecture", "weight": 0.11 },
   { "dimension": "Security and Privacy", "area": "Documentation", "weight": 0.08 },
   { "dimension": "Security and Privacy", "area": "CI/CD", "weight": 0.07 },
   
-  // User Experience and Consistency relationships
   { "dimension": "User Experience and Consistency", "area": "UX Dependencies", "weight": 0.14 },
   { "dimension": "User Experience and Consistency", "area": "Feedback", "weight": 0.11 },
   { "dimension": "User Experience and Consistency", "area": "Testing", "weight": 0.09 },
   { "dimension": "User Experience and Consistency", "area": "Knowledge Sharing", "weight": 0.08 },
   { "dimension": "User Experience and Consistency", "area": "Documentation", "weight": 0.07 },
   
-  // Add more realistic relationships for the remaining dimensions...
   { "dimension": "Maintainability and Cost Savings", "area": "Maintenance", "weight": 0.13 },
   { "dimension": "Maintainability and Cost Savings", "area": "Architecture", "weight": 0.12 },
   { "dimension": "Maintainability and Cost Savings", "area": "Documentation", "weight": 0.10 },
