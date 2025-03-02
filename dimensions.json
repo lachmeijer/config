@@ -1,0 +1,22 @@
+[
+  { "name": "Quality and Reliability", "scale": "Peak", "stars": 5 },
+  { "name": "Faster Iterations and Innovation", "scale": "Emerging", "stars": 3 },
+  { "name": "Better Alignment with Customer Needs", "scale": "Peak", "stars": 4 },
+  { "name": "Sustainability and Long-term Focus", "scale": "Emerging", "stars": 3 },
+  { "name": "Efficiency and Fewer Dependencies", "scale": "Weak", "stars": 2 },
+  { "name": "Performance and Responsiveness", "scale": "Peak", "stars": 4 },
+  { "name": "Scalability", "scale": "Emerging", "stars": 3 },
+  { "name": "Flexibility and Speed of Changes", "scale": "Weak", "stars": 2 },
+  { "name": "Security and Privacy", "scale": "Peak", "stars": 5 },
+  { "name": "User Experience and Consistency", "scale": "Emerging", "stars": 3 },
+  { "name": "Maintainability and Cost Savings", "scale": "Weak", "stars": 2 },
+  { "name": "Faster Incident Response", "scale": "Peak", "stars": 4 },
+  { "name": "Data-driven Improvements", "scale": "Emerging", "stars": 3 },
+  { "name": "Prevention of Future Problems", "scale": "Weak", "stars": 2 },
+  { "name": "Faster Delivery of Functionality", "scale": "Peak", "stars": 4 },
+  { "name": "Higher Code Quality", "scale": "Emerging", "stars": 3 },
+  { "name": "Better Collaboration", "scale": "Weak", "stars": 2 },
+  { "name": "Efficient Use of Resources", "scale": "Peak", "stars": 4 },
+  { "name": "Balance between Short and Long Term", "scale": "Emerging", "stars": 3 },
+  { "name": "Less Context Switching and More Efficient Work", "scale": "Weak", "stars": 2 }
+]
