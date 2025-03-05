@@ -3,36 +3,36 @@
     { 
       "name": "Documentation", 
       "description": "Quality and accessibility of technical documentation, including architecture decisions, APIs, and system behaviors. Focuses on keeping documentation current, clear, and useful for both new and existing team members.",
-      "impact": "medium", 
-      "baseWeight": 0.5, 
+      "impact": "high", 
+      "baseWeight": 0.7, 
       "color": "#3b82f6" 
     },
     { 
       "name": "Architecture", 
       "description": "Overall system design quality, including scalability, maintainability, and technical debt management. Covers architectural decisions, patterns, and system evolution strategies.",
-      "impact": "high", 
-      "baseWeight": 0.8, 
+      "impact": "critical", 
+      "baseWeight": 0.9, 
       "color": "#3b82f6" 
     },
     { 
       "name": "Testing", 
       "description": "Comprehensive testing practices including unit, integration, and end-to-end testing. Focuses on test coverage, quality, and automation to ensure reliable software delivery.",
-      "impact": "high", 
-      "baseWeight": 0.8, 
+      "impact": "critical", 
+      "baseWeight": 0.9, 
       "color": "#3b82f6" 
     },
     { 
       "name": "Security & Compliance", 
       "description": "Implementation of security best practices, vulnerability management, and compliance requirements. Ensures protection of systems, data, and adherence to regulatory standards.",
-      "impact": "medium", 
-      "baseWeight": 0.5, 
+      "impact": "critical", 
+      "baseWeight": 0.9, 
       "color": "#3b82f6" 
     },
     { 
       "name": "Performance", 
       "description": "System performance optimization, including response times, resource utilization, and scalability. Focuses on maintaining high performance standards and efficient resource usage.",
-      "impact": "medium", 
-      "baseWeight": 0.5, 
+      "impact": "high", 
+      "baseWeight": 0.7, 
       "color": "#3b82f6" 
     }
   ],
@@ -40,43 +40,50 @@
     { 
       "name": "CI/CD", 
       "description": "Continuous Integration and Continuous Delivery pipeline efficiency, including build automation, deployment processes, and release management. Ensures reliable and frequent software delivery.",
-      "impact": "high", 
-      "baseWeight": 0.8, 
+      "impact": "critical", 
+      "baseWeight": 0.9, 
       "color": "#10b981" 
     },
     { 
       "name": "Team Commitments", 
       "description": "Team's ability to plan, commit to, and deliver work consistently. Includes sprint planning, estimation accuracy, and delivery predictability.",
-      "impact": "medium", 
-      "baseWeight": 0.5, 
+      "impact": "high", 
+      "baseWeight": 0.7, 
       "color": "#10b981" 
     },
     { 
       "name": "Individual Commitments", 
       "description": "Individual team members' ability to manage and deliver their assigned tasks effectively. Focuses on personal accountability and delivery reliability.",
-      "impact": "low", 
-      "baseWeight": 0.3, 
+      "impact": "medium", 
+      "baseWeight": 0.5, 
       "color": "#10b981" 
     },
     { 
       "name": "Maintenance", 
       "description": "Ongoing system maintenance practices, including updates, patches, and technical debt management. Ensures long-term system health and reliability.",
-      "impact": "medium", 
-      "baseWeight": 0.5, 
+      "impact": "high", 
+      "baseWeight": 0.7, 
       "color": "#10b981" 
     },
     { 
       "name": "Monitoring", 
       "description": "System monitoring and observability practices, including metrics collection, alerting, and incident detection. Ensures proactive issue identification and resolution.",
-      "impact": "high", 
-      "baseWeight": 0.8, 
+      "impact": "critical", 
+      "baseWeight": 0.9, 
       "color": "#10b981" 
     },
     { 
-      "name": "DORA", 
-      "description": "Implementation and tracking of DORA metrics (Deployment Frequency, Lead Time, Change Failure Rate, Time to Restore). Measures and improves development team performance.",
-      "impact": "medium", 
-      "baseWeight": 0.5, 
+      "name": "Engineering Metrics", 
+      "description": "Implementation and tracking of key engineering metrics including DORA metrics (Deployment Frequency, Lead Time, Change Failure Rate, Time to Restore) and other performance indicators.",
+      "impact": "high", 
+      "baseWeight": 0.7, 
+      "color": "#10b981" 
+    },
+    { 
+      "name": "Incident Management & Response", 
+      "description": "Effectiveness of incident response processes, including detection, resolution, and post-mortems. Focuses on minimizing downtime and improving system reliability.",
+      "impact": "critical", 
+      "baseWeight": 0.9, 
       "color": "#10b981" 
     }
   ],
@@ -91,48 +98,55 @@
     { 
       "name": "Onboarding", 
       "description": "Process and effectiveness of new team member onboarding. Includes documentation, mentoring, and getting new members productive quickly.",
-      "impact": "medium", 
-      "baseWeight": 0.5, 
+      "impact": "high", 
+      "baseWeight": 0.7, 
       "color": "#f97316" 
     },
     { 
       "name": "Ownership", 
       "description": "Clear ownership and responsibility for different parts of the system. Ensures accountability and proper maintenance of system components.",
-      "impact": "high", 
-      "baseWeight": 0.8, 
+      "impact": "critical", 
+      "baseWeight": 0.9, 
       "color": "#f97316" 
     },
     { 
       "name": "Knowledge Sharing", 
       "description": "Practices and culture around sharing technical knowledge within the team. Includes documentation, presentations, pair programming, and mentoring.",
-      "impact": "high", 
-      "baseWeight": 0.8, 
+      "impact": "critical", 
+      "baseWeight": 0.9, 
       "color": "#f97316" 
     },
     { 
       "name": "UX Dependencies", 
       "description": "Management of dependencies and collaboration with UX/UI teams. Ensures smooth integration of design and development work.",
-      "impact": "medium", 
-      "baseWeight": 0.5, 
+      "impact": "high", 
+      "baseWeight": 0.7, 
       "color": "#f97316" 
     },
     { 
-      "name": "Other Teams", 
-      "description": "Effectiveness of collaboration with other technical teams. Includes communication, dependency management, and cross-team project coordination.",
-      "impact": "medium", 
-      "baseWeight": 0.5, 
+      "name": "Cross-team Dependencies", 
+      "description": "Management of dependencies and collaboration with other technical teams. Includes communication, coordination, and alignment across team boundaries.",
+      "impact": "critical", 
+      "baseWeight": 0.9, 
       "color": "#f97316" 
     },
     { 
       "name": "DevEx", 
       "description": "Developer Experience quality, including development environment, tools, and processes. Focuses on making developers productive and removing friction.",
-      "impact": "medium", 
-      "baseWeight": 0.5, 
+      "impact": "high", 
+      "baseWeight": 0.8, 
       "color": "#f97316" 
     },
     { 
       "name": "Decision Making", 
       "description": "Quality and efficiency of technical decision-making processes. Includes architecture decisions, technology choices, and technical strategy.",
+      "impact": "critical", 
+      "baseWeight": 0.9, 
+      "color": "#f97316" 
+    },
+    { 
+      "name": "Technical Mentorship", 
+      "description": "Structured approach to technical skill development through mentoring relationships. Includes both formal and informal mentoring programs, skill transfer, and career development.",
       "impact": "high", 
       "baseWeight": 0.8, 
       "color": "#f97316" 
@@ -142,29 +156,50 @@
     { 
       "name": "Technology", 
       "description": "Adoption and effective use of new technologies. Includes evaluation of new tools, frameworks, and platforms to improve development capabilities.",
-      "impact": "high", 
-      "baseWeight": 0.8, 
-      "color": "#8b5cf6" 
-    },
-    { 
-      "name": "Experiment", 
-      "description": "Culture and practices around experimentation with new approaches and technologies. Includes prototyping, proof of concepts, and innovation initiatives.",
-      "impact": "medium", 
-      "baseWeight": 0.5, 
+      "impact": "critical", 
+      "baseWeight": 0.9, 
       "color": "#8b5cf6" 
     },
     { 
       "name": "Learning & Development", 
       "description": "Investment in team learning and skill development. Includes training, conferences, workshops, and continuous learning opportunities.",
-      "impact": "high", 
-      "baseWeight": 0.8, 
+      "impact": "critical", 
+      "baseWeight": 0.9, 
       "color": "#8b5cf6" 
     },
     { 
       "name": "Tools", 
       "description": "Selection, implementation, and optimization of development tools and platforms. Focuses on improving team productivity through better tooling.",
-      "impact": "medium", 
-      "baseWeight": 0.5, 
+      "impact": "high", 
+      "baseWeight": 0.7, 
+      "color": "#8b5cf6" 
+    },
+    { 
+      "name": "AI/ML Integration", 
+      "description": "Integration of AI and machine learning capabilities into development processes and products. Includes tooling, best practices, and responsible AI implementation.",
+      "impact": "critical", 
+      "baseWeight": 0.9, 
+      "color": "#8b5cf6" 
+    },
+    { 
+      "name": "Technical Research & POCs", 
+      "description": "Systematic approach to exploring new technologies through research and proof of concepts. Includes evaluation frameworks, validation processes, and risk assessment.",
+      "impact": "high", 
+      "baseWeight": 0.7, 
+      "color": "#8b5cf6" 
+    },
+    { 
+      "name": "Innovation Time", 
+      "description": "Dedicated time and resources for innovation and experimentation. Includes hackathons, innovation sprints, and self-directed exploration time.",
+      "impact": "high", 
+      "baseWeight": 0.7, 
+      "color": "#8b5cf6" 
+    },
+    { 
+      "name": "Technical Strategy", 
+      "description": "Long-term technical vision and roadmap development. Includes technology selection, architecture evolution, and alignment with business strategy.",
+      "impact": "critical", 
+      "baseWeight": 0.9, 
       "color": "#8b5cf6" 
     }
   ]
