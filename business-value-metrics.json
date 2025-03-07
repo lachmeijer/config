@@ -13,6 +13,18 @@
               "description": "Customer satisfaction metrics are consistently low, indicating significant product or service issues."
             },
             {
+              "stars": 2,
+              "description": "Customer satisfaction metrics show improvement but remain below industry averages with recurring issues."
+            },
+            {
+              "stars": 3,
+              "description": "Customer satisfaction metrics are at industry average with occasional issues that are addressed promptly."
+            },
+            {
+              "stars": 4,
+              "description": "Customer satisfaction metrics exceed industry averages with few issues and positive customer feedback."
+            },
+            {
               "stars": 5,
               "description": "Consistently high CSAT/NPS scores demonstrate exceptional customer loyalty and advocacy, driving significant revenue growth."
             }
@@ -25,6 +37,18 @@
             {
               "stars": 1,
               "description": "Feature releases are significantly delayed, and the organization struggles to adapt to market changes."
+            },
+            {
+              "stars": 2,
+              "description": "Feature releases often miss deadlines, with slow response to market changes and limited innovation."
+            },
+            {
+              "stars": 3,
+              "description": "Feature releases meet most deadlines with adequate response to market changes and some successful innovations."
+            },
+            {
+              "stars": 4,
+              "description": "Feature releases are generally on time with good adaptation to market changes and regular successful innovations."
             },
             {
               "stars": 5,
@@ -41,6 +65,18 @@
               "description": "Poor user experience leads to low conversion rates and high customer churn."
             },
             {
+              "stars": 2,
+              "description": "User experience has notable issues that negatively impact conversion rates and user retention."
+            },
+            {
+              "stars": 3,
+              "description": "User experience is adequate with industry average conversion rates and reasonable user retention."
+            },
+            {
+              "stars": 4,
+              "description": "Good user experience with above-average conversion rates and strong user retention metrics."
+            },
+            {
               "stars": 5,
               "description": "User experience is a key competitive advantage, resulting in exceptionally high conversion rates and user engagement."
             }
@@ -53,6 +89,18 @@
             {
               "stars": 1,
               "description": "Products lack unique features and struggle to compete in the market."
+            },
+            {
+              "stars": 2,
+              "description": "Products have few differentiating features and face significant competitive pressure."
+            },
+            {
+              "stars": 3,
+              "description": "Products have some unique features that provide competitive parity in the market."
+            },
+            {
+              "stars": 4,
+              "description": "Products have several distinctive features that create competitive advantages in key areas."
             },
             {
               "stars": 5,
@@ -69,8 +117,20 @@
               "description": "Customer feedback is largely ignored, leading to products that don't meet customer needs."
             },
             {
+              "stars": 2,
+              "description": "Customer feedback is collected but rarely acted upon in a systematic way."
+            },
+            {
+              "stars": 3,
+              "description": "Customer feedback is regularly collected and incorporated into product planning with moderate effectiveness."
+            },
+            {
+              "stars": 4,
+              "description": "Customer feedback is systematically collected and effectively integrated into the product development process."
+            },
+            {
               "stars": 5,
-              "description": "Customer feedback is seamlessly integrated into the development process, resulting in highly customer-centric and successful products."
+              "description": "Customer feedback drives product development, resulting in products that consistently exceed customer expectations."
             }
           ]
         }
@@ -88,6 +148,18 @@
               "description": "High operational costs and inefficient resource utilization lead to financial losses."
             },
             {
+              "stars": 2,
+              "description": "Engineering operations are inefficient with significant opportunities for cost reduction."
+            },
+            {
+              "stars": 3,
+              "description": "Engineering operations meet basic efficiency standards with some cost optimization initiatives."
+            },
+            {
+              "stars": 4,
+              "description": "Engineering operations are efficient with effective cost control and regular optimization initiatives."
+            },
+            {
               "stars": 5,
               "description": "Highly optimized engineering operations with minimal waste result in significant cost savings and efficient resource allocation."
             }
@@ -100,6 +172,18 @@
             {
               "stars": 1,
               "description": "Frequent system outages and slow incident resolution disrupt business operations."
+            },
+            {
+              "stars": 2,
+              "description": "System reliability is below industry standards with inconsistent incident resolution times."
+            },
+            {
+              "stars": 3,
+              "description": "Systems meet basic reliability requirements with acceptable incident resolution times."
+            },
+            {
+              "stars": 4,
+              "description": "Systems are highly reliable with quick incident resolution and good business continuity plans."
             },
             {
               "stars": 5,
@@ -116,6 +200,18 @@
               "description": "Project delivery is unpredictable, and high technical debt leads to increased maintenance costs."
             },
             {
+              "stars": 2,
+              "description": "Project delivery has limited predictability with growing technical debt and frequent delays."
+            },
+            {
+              "stars": 3,
+              "description": "Project delivery is moderately predictable with some technical debt management processes in place."
+            },
+            {
+              "stars": 4,
+              "description": "Project delivery is highly predictable with effective technical debt reduction strategies."
+            },
+            {
               "stars": 5,
               "description": "Consistent project delivery within planned budgets and timelines, with actively managed and minimized technical debt."
             }
@@ -130,6 +226,18 @@
               "description": "Resources are poorly allocated, leading to low productivity and wasted effort."
             },
             {
+              "stars": 2,
+              "description": "Resource allocation shows inefficiencies with uneven workloads and capacity issues."
+            },
+            {
+              "stars": 3,
+              "description": "Resource allocation is reasonably balanced with some optimization efforts."
+            },
+            {
+              "stars": 4,
+              "description": "Resources are well-allocated with effective optimization strategies and good productivity."
+            },
+            {
               "stars": 5,
               "description": "Resources are optimally allocated, maximizing productivity and minimizing waste across all engineering teams."
             }
@@ -142,6 +250,18 @@
             {
               "stars": 1,
               "description": "Manual processes are prevalent, leading to errors and inefficiencies."
+            },
+            {
+              "stars": 2,
+              "description": "Basic automation exists but most processes still require significant manual intervention."
+            },
+            {
+              "stars": 3,
+              "description": "Key processes are automated with a mix of manual and automated workflows."
+            },
+            {
+              "stars": 4,
+              "description": "Most engineering processes are automated with continuous improvement of automation solutions."
             },
             {
               "stars": 5,
@@ -163,6 +283,18 @@
               "description": "Frequent security incidents and vulnerabilities expose the organization to significant risks."
             },
             {
+              "stars": 2,
+              "description": "Basic security measures exist but with substantial gaps and limited risk management processes."
+            },
+            {
+              "stars": 3,
+              "description": "Standard security measures are in place with adequate risk management and incident response."
+            },
+            {
+              "stars": 4,
+              "description": "Strong security measures and risk management processes with few incidents and quick resolution."
+            },
+            {
               "stars": 5,
               "description": "Proactive security measures, minimal security incidents, and full compliance with relevant regulations safeguard business reputation."
             }
@@ -175,6 +307,18 @@
             {
               "stars": 1,
               "description": "Non-compliance with regulations leads to fines and reputational damage."
+            },
+            {
+              "stars": 2,
+              "description": "Minimal compliance efforts with inconsistent data governance practices."
+            },
+            {
+              "stars": 3,
+              "description": "Adequate compliance with regulations and basic data governance practices in place."
+            },
+            {
+              "stars": 4,
+              "description": "Strong compliance program with effective data governance and regular audits."
             },
             {
               "stars": 5,
@@ -191,6 +335,18 @@
               "description": "The organization struggles to adapt to changing market conditions and technological advancements."
             },
             {
+              "stars": 2,
+              "description": "The organization adapts slowly to changes with significant resistance to new technologies."
+            },
+            {
+              "stars": 3,
+              "description": "The organization adapts adequately to changes and adopts new technologies at industry-average pace."
+            },
+            {
+              "stars": 4,
+              "description": "The organization adapts well to changes and proactively adopts new technologies ahead of competitors."
+            },
+            {
               "stars": 5,
               "description": "The IT environment and engineering culture are extremely flexible, and adapt to change very quickly."
             }
@@ -205,6 +361,18 @@
               "description": "Data breaches and privacy violations erode customer trust."
             },
             {
+              "stars": 2,
+              "description": "Basic data protection measures exist but with significant gaps and vulnerabilities."
+            },
+            {
+              "stars": 3,
+              "description": "Standard data privacy measures meet regulatory requirements with adequate protection."
+            },
+            {
+              "stars": 4,
+              "description": "Strong data privacy and protection measures with proactive monitoring and response."
+            },
+            {
               "stars": 5,
               "description": "Robust data privacy and protection measures exceed regulatory requirements and build customer trust."
             }
@@ -217,6 +385,18 @@
             {
               "stars": 1,
               "description": "Intellectual property is vulnerable to theft and misuse."
+            },
+            {
+              "stars": 2,
+              "description": "Basic IP protection exists but with limited enforcement and awareness."
+            },
+            {
+              "stars": 3,
+              "description": "Standard IP protection practices are in place with reasonable safeguards."
+            },
+            {
+              "stars": 4,
+              "description": "Strong IP protection with comprehensive policies, training, and enforcement."
             },
             {
               "stars": 5,
@@ -238,6 +418,18 @@
               "description": "High employee turnover and difficulty attracting skilled engineers hinder progress."
             },
             {
+              "stars": 2,
+              "description": "Below-average retention rates with challenges in recruiting qualified engineering talent."
+            },
+            {
+              "stars": 3,
+              "description": "Average retention rates with moderate success in recruiting engineering talent."
+            },
+            {
+              "stars": 4,
+              "description": "Strong retention rates with good success in attracting qualified engineering talent."
+            },
+            {
               "stars": 5,
               "description": "The organization is a highly sought-after employer for top engineering talent, with exceptional employee satisfaction and retention."
             }
@@ -250,6 +442,18 @@
             {
               "stars": 1,
               "description": "Decisions are based on gut feeling rather than data, and innovation is stifled."
+            },
+            {
+              "stars": 2,
+              "description": "Limited use of data in decision making with occasional innovation initiatives."
+            },
+            {
+              "stars": 3,
+              "description": "Some data-driven decisions with regular innovation initiatives and moderate results."
+            },
+            {
+              "stars": 4,
+              "description": "Most decisions are data-driven with a strong culture of innovation and good results."
             },
             {
               "stars": 5,
@@ -266,6 +470,18 @@
               "description": "Frequent software bugs and performance issues lead to customer dissatisfaction."
             },
             {
+              "stars": 2,
+              "description": "Software has regular quality and performance issues that impact user experience."
+            },
+            {
+              "stars": 3,
+              "description": "Software meets basic quality and performance standards with occasional issues."
+            },
+            {
+              "stars": 4,
+              "description": "Software is of high quality with strong performance and few reported issues."
+            },
+            {
               "stars": 5,
               "description": "Software quality and performance exceed all expectations, and are a key competitive advantage."
             }
@@ -280,6 +496,18 @@
               "description": "Knowledge silos and poor collaboration hinder problem-solving and innovation."
             },
             {
+              "stars": 2,
+              "description": "Limited knowledge sharing with inconsistent collaboration across teams."
+            },
+            {
+              "stars": 3,
+              "description": "Adequate knowledge sharing and collaboration processes with room for improvement."
+            },
+            {
+              "stars": 4,
+              "description": "Effective knowledge sharing systems with strong cross-team collaboration."
+            },
+            {
               "stars": 5,
               "description": "A strong culture of knowledge sharing and collaboration fosters innovation and accelerates problem-solving."
             }
@@ -292,6 +520,18 @@
             {
               "stars": 1,
               "description": "Engineering leadership lacks a clear vision, leading to misaligned efforts."
+            },
+            {
+              "stars": 2,
+              "description": "Engineering leadership has a vague vision with limited alignment to business goals."
+            },
+            {
+              "stars": 3,
+              "description": "Engineering leadership has a defined vision with moderate alignment to business objectives."
+            },
+            {
+              "stars": 4,
+              "description": "Engineering leadership has a clear vision well-aligned with strategic business goals."
             },
             {
               "stars": 5,
