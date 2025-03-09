@@ -5,86 +5,158 @@
       "description": "Quality and accessibility of technical documentation, including architecture decisions, APIs, and system behaviors. Focuses on keeping documentation current, clear, and useful for both new and existing team members.",
       "impact": "high", 
       "baseWeight": 0.7, 
-      "color": "#3b82f6" 
+      "color": "#3b82f6",
+      "maturityLevels": {
+        "Weak": "Documentation is sparse or outdated. New team members struggle to understand systems and processes. Knowledge is primarily tribal and not captured systematically.",
+        "Emerging": "Basic documentation exists but has gaps. Some areas are well-documented while others lack coverage. Documentation is updated inconsistently after system changes.",
+        "Established": "Comprehensive documentation covers most systems and processes. Documentation is regularly updated with changes. New team members can onboard effectively using available documentation.",
+        "Peak": "Documentation is exemplary, current, and accessible. Knowledge management is part of the development workflow. Documentation includes context, decision records, and clearly explains both how and why systems work."
+      }
     },
     { 
       "name": "Architecture", 
       "description": "Overall system design quality, including scalability, maintainability, and technical debt management. Covers architectural decisions, patterns, and system evolution strategies.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#3b82f6" 
+      "color": "#3b82f6",
+      "maturityLevels": {
+        "Weak": "Architecture is ad hoc with significant technical debt. Systems lack clear boundaries and have excessive coupling. Architectural decisions are poorly documented or inconsistent.",
+        "Emerging": "Basic architectural patterns are applied but inconsistently. Some systems have clear designs while others have evolved organically. Technical debt is acknowledged but not systematically addressed.",
+        "Established": "Architecture follows established patterns with clear boundaries between systems. Technical debt is actively managed. New features can be implemented without major refactoring.",
+        "Peak": "Architecture is a competitive advantage. Systems are modular, scalable, and adaptable to changing requirements. Technical debt is minimal, and architectural decisions are well-documented with clear reasoning."
+      }
     },
     { 
       "name": "Testing", 
       "description": "Comprehensive testing practices including unit, integration, and end-to-end testing. Focuses on test coverage, quality, and automation to ensure reliable software delivery.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#3b82f6" 
+      "color": "#3b82f6",
+      "maturityLevels": {
+        "Weak": "Testing is manual and ad hoc. Test coverage is low or unmeasured. Regressions are common, and quality issues are frequently discovered in production.",
+        "Emerging": "Basic automated tests exist but coverage is incomplete. Some critical paths are well-tested while others remain vulnerable. Test failures are sometimes ignored.",
+        "Established": "Comprehensive test suite with good coverage. CI/CD pipeline includes automated testing. Regression issues are rare, and test failures are taken seriously.",
+        "Peak": "Testing is a core practice with excellent coverage across unit, integration, and end-to-end tests. Tests are reliable, maintainable, and fast. Test-driven development is practiced where appropriate."
+      }
     },
     { 
       "name": "Security & Compliance", 
       "description": "Implementation of security best practices, vulnerability management, and compliance requirements. Ensures protection of systems, data, and adherence to regulatory standards.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#3b82f6" 
+      "color": "#3b82f6",
+      "maturityLevels": {
+        "Weak": "Security is reactive with minimal proactive measures. Vulnerabilities are addressed only after incidents. Compliance requirements are poorly understood or inconsistently implemented.",
+        "Emerging": "Basic security practices are in place but gaps exist. Some automated security testing is performed. Compliance requirements are known but not fully integrated into development.",
+        "Established": "Security is integrated into the development process. Vulnerabilities are regularly identified and addressed. Compliance requirements are well-understood and consistently met.",
+        "Peak": "Security is a strategic priority with advanced practices throughout the SDLC. Threat modeling is routine. Compliance is automated where possible, with clear audit trails and proactive risk management."
+      }
     },
     { 
       "name": "Performance", 
       "description": "System performance optimization, including response times, resource utilization, and scalability. Focuses on maintaining high performance standards and efficient resource usage.",
       "impact": "high", 
       "baseWeight": 0.7, 
-      "color": "#3b82f6" 
+      "color": "#3b82f6",
+      "maturityLevels": {
+        "Weak": "Performance is addressed reactively when issues arise. No systematic monitoring or optimization. Performance bottlenecks often impact users.",
+        "Emerging": "Basic performance monitoring and some optimization efforts. Performance is considered during development but not systematically measured or tested.",
+        "Established": "Performance requirements are well-defined and regularly tested. Monitoring identifies issues before they impact users. Performance optimization is part of the regular development process.",
+        "Peak": "Performance is a competitive advantage. Comprehensive monitoring, testing, and optimization throughout the development lifecycle. Systems scale efficiently, and resource utilization is optimized."
+      }
     }
   ],
   "Delivery": [
     { 
       "name": "CI/CD", 
-      "description": "Continuous Integration and Continuous Delivery pipeline efficiency, including build automation, deployment processes, and release management. Ensures reliable and frequent software delivery.",
+      "description": "Continuous integration and delivery pipeline implementation. Focuses on automation, reliability, and efficiency of the build, test, and deployment processes.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#10b981" 
+      "color": "#10b981",
+      "maturityLevels": {
+        "Weak": "Manual deployments with minimal automation. No consistent CI process. Deployments are risky, error-prone, and time-consuming.",
+        "Emerging": "Basic CI/CD pipeline exists but requires significant manual intervention. Automated tests run inconsistently. Deployments still involve manual steps and coordination.",
+        "Established": "Reliable CI/CD pipeline with good automation. Deployments are largely automated and low-risk. Most changes flow through the pipeline with minimal manual intervention.",
+        "Peak": "Fully automated CI/CD pipeline that is fast, reliable, and includes comprehensive testing. Deployments are routine, low-risk events that can happen at any frequency. Infrastructure as code is used throughout."
+      }
     },
     { 
       "name": "Team Commitments", 
-      "description": "Team's ability to plan, commit to, and deliver work consistently. Includes sprint planning, estimation accuracy, and delivery predictability.",
+      "description": "Team's ability to plan, forecast, and reliably deliver on commitments. Includes sprint planning, estimation accuracy, and delivery consistency.",
       "impact": "high", 
       "baseWeight": 0.7, 
-      "color": "#10b981" 
+      "color": "#10b981",
+      "maturityLevels": {
+        "Weak": "Team commitments are frequently missed. Planning is inconsistent or ineffective. Significant variance between estimates and actual delivery.",
+        "Emerging": "Team meets some commitments but still struggles with estimation and forecasting. Delivery is somewhat predictable but with regular exceptions.",
+        "Established": "Team reliably meets most commitments. Planning is effective, and estimates are generally accurate. Velocity is consistent and predictable.",
+        "Peak": "Team consistently delivers on commitments with high accuracy. Planning and estimation are strengths. Team can adapt to changing priorities while maintaining delivery reliability."
+      }
     },
     { 
       "name": "Individual Commitments", 
       "description": "Individual team members' ability to manage and deliver their assigned tasks effectively. Focuses on personal accountability and delivery reliability.",
       "impact": "medium", 
       "baseWeight": 0.5, 
-      "color": "#10b981" 
+      "color": "#10b981",
+      "maturityLevels": {
+        "Weak": "Individual contributors frequently miss deadlines or deliver incomplete work. Task management is inconsistent, and dependencies are often blocked.",
+        "Emerging": "Most individual contributors meet commitments but with varying consistency. Some team members are reliable while others struggle with estimation or delivery.",
+        "Established": "Individual contributors consistently meet commitments. Task management is effective, and team members proactively communicate about progress and blockers.",
+        "Peak": "Individual contributors excel at managing their work and commitments. Team members take ownership, communicate effectively, and consistently deliver high-quality work on time."
+      }
     },
     { 
       "name": "Maintenance", 
       "description": "Ongoing system maintenance practices, including updates, patches, and technical debt management. Ensures long-term system health and reliability.",
       "impact": "high", 
       "baseWeight": 0.7, 
-      "color": "#10b981" 
+      "color": "#10b981",
+      "maturityLevels": {
+        "Weak": "Maintenance is reactive and often delayed. Systems run on outdated dependencies. Technical debt accumulates with little attention.",
+        "Emerging": "Some regular maintenance is performed but without a comprehensive strategy. Critical updates are applied, but technical debt continues to grow.",
+        "Established": "Maintenance is systematic with regular updates and patches. Technical debt is actively managed with dedicated time for refactoring and improvements.",
+        "Peak": "Proactive maintenance is built into the development process. Dependencies are kept current, technical debt is minimal, and systems are continuously improved."
+      }
     },
     { 
       "name": "Monitoring", 
       "description": "System monitoring and observability practices, including metrics collection, alerting, and incident detection. Ensures proactive issue identification and resolution.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#10b981" 
+      "color": "#10b981",
+      "maturityLevels": {
+        "Weak": "Minimal monitoring in place. Issues are typically discovered through user reports. Little visibility into system health or performance.",
+        "Emerging": "Basic monitoring covers critical systems. Some alerts are configured but may include false positives or miss important issues.",
+        "Established": "Comprehensive monitoring with effective alerting. Good observability into system health and performance. Issues are typically detected before users are impacted.",
+        "Peak": "Advanced monitoring and observability are competitive advantages. Sophisticated metrics, logging, and tracing provide deep insights. Predictive monitoring identifies potential issues before they occur."
+      }
     },
     { 
       "name": "Engineering Metrics", 
       "description": "Implementation and tracking of key engineering metrics including DORA metrics (Deployment Frequency, Lead Time, Change Failure Rate, Time to Restore) and other performance indicators.",
       "impact": "high", 
       "baseWeight": 0.7, 
-      "color": "#10b981" 
+      "color": "#10b981",
+      "maturityLevels": {
+        "Weak": "Few or no engineering metrics are tracked. Decision-making is based on intuition rather than data. Performance measurement is subjective.",
+        "Emerging": "Basic metrics are tracked but inconsistently used. Some data-informed decisions, but metrics may not cover all critical areas.",
+        "Established": "Comprehensive metrics framework including DORA metrics. Regular review of metrics with actionable insights. Metrics inform most engineering decisions.",
+        "Peak": "Advanced metrics program that drives continuous improvement. Metrics are integrated into the development process with real-time visibility. Data-driven culture with clear performance objectives."
+      }
     },
     { 
       "name": "Incident Management & Response", 
       "description": "Effectiveness of incident response processes, including detection, resolution, and post-mortems. Focuses on minimizing downtime and improving system reliability.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#10b981" 
+      "color": "#10b981",
+      "maturityLevels": {
+        "Weak": "Ad hoc incident response with no formal process. Poor coordination during incidents. Limited or no post-incident analysis.",
+        "Emerging": "Basic incident management process exists but may not be consistently followed. Some post-mortems are conducted but follow-up is inconsistent.",
+        "Established": "Well-defined incident management process with clear roles and effective coordination. Regular post-mortems lead to meaningful improvements.",
+        "Peak": "Exceptional incident management with rapid detection, resolution, and learning. Post-mortems are blameless and drive systematic improvements. Incidents are rare and quickly resolved."
+      }
     }
   ],
   "Collaboration": [
@@ -93,63 +165,117 @@
       "description": "Effectiveness of feedback loops within the team and with stakeholders. Includes code reviews, retrospectives, and continuous improvement processes.",
       "impact": "high", 
       "baseWeight": 0.8, 
-      "color": "#f97316" 
+      "color": "#f97316",
+      "maturityLevels": {
+        "Weak": "Feedback is infrequent and often perceived as criticism. Code reviews are superficial or inconsistent. Retrospectives rarely lead to meaningful changes.",
+        "Emerging": "Some feedback mechanisms exist but aren't fully effective. Code reviews happen but vary in quality. Retrospectives identify issues but follow-through is inconsistent.",
+        "Established": "Regular, constructive feedback is part of the team culture. Thorough code reviews are standard. Retrospectives consistently lead to actionable improvements.",
+        "Peak": "Feedback is continuous, specific, and growth-oriented. Code reviews are thorough and valued. Retrospectives drive continuous improvement with systematic follow-through."
+      }
     },
     { 
       "name": "Onboarding", 
       "description": "Process and effectiveness of new team member onboarding. Includes documentation, mentoring, and getting new members productive quickly.",
       "impact": "high", 
       "baseWeight": 0.7, 
-      "color": "#f97316" 
+      "color": "#f97316",
+      "maturityLevels": {
+        "Weak": "Onboarding is informal and inconsistent. New team members struggle to become productive. Little documentation or structured support exists.",
+        "Emerging": "Basic onboarding process exists but has gaps. New team members become productive after extended time. Some documentation and mentoring is available.",
+        "Established": "Well-defined onboarding process with good documentation and support. New team members become productive relatively quickly. Mentoring is available and effective.",
+        "Peak": "Exceptional onboarding that gets new members productive quickly. Comprehensive documentation, effective mentoring, and structured learning paths. Onboarding experience is regularly improved."
+      }
     },
     { 
       "name": "Ownership", 
       "description": "Clear ownership and responsibility for different parts of the system. Ensures accountability and proper maintenance of system components.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#f97316" 
+      "color": "#f97316",
+      "maturityLevels": {
+        "Weak": "Ownership is unclear or undefined. Systems and features lack clear owners. Maintenance and improvements happen reactively or not at all.",
+        "Emerging": "Some systems have defined ownership but gaps remain. Ownership is sometimes shared but with unclear boundaries. Some areas have no clear owner.",
+        "Established": "Most systems have clear ownership with defined responsibilities. Maintenance and improvements are planned and executed consistently. Few gaps in coverage.",
+        "Peak": "All systems have clear ownership with defined responsibilities. Team members demonstrate strong ownership mentality. Proactive maintenance and continuous improvement are standard."
+      }
     },
     { 
       "name": "Knowledge Sharing", 
       "description": "Practices and culture around sharing technical knowledge within the team. Includes documentation, presentations, pair programming, and mentoring.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#f97316" 
+      "color": "#f97316",
+      "maturityLevels": {
+        "Weak": "Knowledge is siloed with few sharing mechanisms. Documentation is sparse or outdated. Single points of failure exist due to specialized knowledge.",
+        "Emerging": "Some knowledge sharing happens but isn't systematic. Documentation exists but has gaps. Knowledge transfer relies heavily on informal conversations.",
+        "Established": "Regular knowledge sharing through various channels. Documentation is generally good and updated regularly. Few knowledge silos remain.",
+        "Peak": "Knowledge sharing is a core team value. Multiple effective sharing mechanisms including documentation, presentations, pair programming, and mentoring. No critical knowledge silos."
+      }
     },
     { 
       "name": "UX Dependencies", 
       "description": "Management of dependencies and collaboration with UX/UI teams. Ensures smooth integration of design and development work.",
       "impact": "high", 
       "baseWeight": 0.7, 
-      "color": "#f97316" 
+      "color": "#f97316",
+      "maturityLevels": {
+        "Weak": "Collaboration with UX/UI teams is reactive and often contentious. Handoffs are disorganized with frequent misunderstandings. Design implementation often varies from intent.",
+        "Emerging": "Basic collaboration with UX/UI teams. Some processes exist for handoffs but aren't always followed. Implementation sometimes differs from design intent.",
+        "Established": "Good collaboration with UX/UI teams with established processes. Handoffs are generally smooth. Implementation typically matches design intent with minor variations.",
+        "Peak": "Seamless collaboration with UX/UI teams. Designers and developers work together throughout the process. Design systems and component libraries ensure consistent implementation."
+      }
     },
     { 
       "name": "Cross-team Dependencies", 
       "description": "Management of dependencies and collaboration with other technical teams. Includes communication, coordination, and alignment across team boundaries.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#f97316" 
+      "color": "#f97316",
+      "maturityLevels": {
+        "Weak": "Cross-team dependencies are major bottlenecks. Communication between teams is poor. Work is frequently blocked waiting for other teams.",
+        "Emerging": "Cross-team dependencies are managed but with significant effort. Communication is inconsistent. Some work is blocked by dependencies, but critical paths usually proceed.",
+        "Established": "Cross-team dependencies are well-managed. Communication is good, and teams coordinate effectively. Work is rarely blocked due to dependencies.",
+        "Peak": "Cross-team dependencies are identified early and managed proactively. Teams have excellent communication and alignment. Dependencies rarely impact delivery timelines."
+      }
     },
     { 
       "name": "DevEx", 
-      "description": "Developer Experience quality, including development environment, tools, and processes. Focuses on making developers productive and removing friction.",
+      "description": "Developer Experience including development environment, tools, and processes. Focuses on making the development workflow efficient and enjoyable.",
       "impact": "high", 
       "baseWeight": 0.8, 
-      "color": "#f97316" 
+      "color": "#f97316",
+      "maturityLevels": {
+        "Weak": "Poor developer experience with frequent friction. Development environment setup is difficult. Tools and processes hinder rather than help productivity.",
+        "Emerging": "Basic developer experience with some improvements. Development environment works but has pain points. Some tooling helps productivity.",
+        "Established": "Good developer experience with minimal friction. Development environment is reliable and easy to set up. Tools and processes generally enhance productivity.",
+        "Peak": "Exceptional developer experience that is a competitive advantage. Development environment is efficient and delightful to use. Tools and processes significantly enhance productivity and job satisfaction."
+      }
     },
     { 
       "name": "Decision Making", 
-      "description": "Quality and efficiency of technical decision-making processes. Includes architecture decisions, technology choices, and technical strategy.",
+      "description": "Effectiveness and clarity of technical decision-making processes. Includes gathering input, evaluating options, making decisions, and communicating rationale.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#f97316" 
+      "color": "#f97316",
+      "maturityLevels": {
+        "Weak": "Decision-making is opaque or highly centralized. Decisions often lack clear rationale or documentation. Team members are often unaware of decisions until after they're made.",
+        "Emerging": "Some decision-making processes exist but aren't consistently followed. Decisions are documented inconsistently. Team involvement in decisions varies.",
+        "Established": "Clear decision-making processes with appropriate team involvement. Decisions are documented with rationale. Team members understand how and why decisions are made.",
+        "Peak": "Excellent decision-making processes balancing speed and inclusivity. Decisions include appropriate stakeholders and are well-documented. Architectural Decision Records (ADRs) or similar practices are standard."
+      }
     },
     { 
       "name": "Technical Mentorship", 
-      "description": "Structured approach to technical skill development through mentoring relationships. Includes both formal and informal mentoring programs, skill transfer, and career development.",
+      "description": "Structured mentoring and growth support for engineers. Includes technical guidance, career development, and knowledge transfer.",
       "impact": "high", 
       "baseWeight": 0.8, 
-      "color": "#f97316" 
+      "color": "#f97316",
+      "maturityLevels": {
+        "Weak": "Little or no formal mentorship. Engineers must find their own growth opportunities. Junior engineers struggle to advance their skills.",
+        "Emerging": "Some mentorship exists but isn't structured or consistent. Growth opportunities vary by team or individual. Knowledge transfer is mostly informal.",
+        "Established": "Regular mentorship with some structure. Clear growth paths for engineers at different levels. Knowledge transfer is encouraged and facilitated.",
+        "Peak": "Comprehensive mentorship program that accelerates engineer growth. Structured pathways with clear expectations. Mentoring is embedded in team culture and organization practices."
+      }
     }
   ],
   "Innovation": [
@@ -158,49 +284,91 @@
       "description": "Adoption and effective use of new technologies. Includes evaluation of new tools, frameworks, and platforms to improve development capabilities.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#8b5cf6" 
+      "color": "#8b5cf6",
+      "maturityLevels": {
+        "Weak": "Technology choices are reactive or outdated. Little evaluation of new technologies. Tech stack limits rather than enables innovation.",
+        "Emerging": "Some evaluation of new technologies but adoption is slow or inconsistent. Tech stack includes some modern components but has legacy constraints.",
+        "Established": "Systematic evaluation and adoption of appropriate new technologies. Tech stack is modern and enables efficient development.",
+        "Peak": "Technology selection is a strategic advantage. Balanced approach to innovation that stays current without chasing trends. Tech stack is optimized for productivity and competitive advantage."
+      }
     },
     { 
       "name": "Learning & Development", 
       "description": "Investment in team learning and skill development. Includes training, conferences, workshops, and continuous learning opportunities.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#8b5cf6" 
+      "color": "#8b5cf6",
+      "maturityLevels": {
+        "Weak": "Minimal investment in learning and development. Training is infrequent and reactive. Team members must pursue growth on their own time.",
+        "Emerging": "Some learning opportunities are available but not systematic. Training budget exists but isn't strategically allocated. Learning is encouraged but not prioritized.",
+        "Established": "Regular learning opportunities with allocated time and budget. Training is aligned with team and organizational needs. Continuous learning is valued.",
+        "Peak": "Learning culture is a competitive advantage. Strategic investment in skill development aligned with both organizational needs and individual career growth. Learning is embedded in daily work."
+      }
     },
     { 
       "name": "Tools", 
       "description": "Selection, implementation, and optimization of development tools and platforms. Focuses on improving team productivity through better tooling.",
       "impact": "high", 
       "baseWeight": 0.7, 
-      "color": "#8b5cf6" 
+      "color": "#8b5cf6",
+      "maturityLevels": {
+        "Weak": "Development tools are outdated or poorly configured. Tool selection is ad hoc. Tools often create more friction than they solve.",
+        "Emerging": "Basic modern development tools are in place but not fully optimized. Some tool improvement initiatives but inconsistent implementation.",
+        "Established": "Well-configured development tools that enhance productivity. Regular evaluation and improvement of the toolchain. Good automation where appropriate.",
+        "Peak": "Excellent tooling that significantly enhances productivity. Tools are customized to team needs and integrated seamlessly. Continuous optimization and automation of repetitive tasks."
+      }
     },
     { 
       "name": "AI/ML Integration", 
       "description": "Integration of AI and machine learning capabilities into development processes and products. Includes tooling, best practices, and responsible AI implementation.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#8b5cf6" 
+      "color": "#8b5cf6",
+      "maturityLevels": {
+        "Weak": "Minimal or no AI/ML integration. Limited awareness of AI potential or implementation approaches. No strategy for AI adoption.",
+        "Emerging": "Basic exploration of AI/ML capabilities. Some experimentation but limited production implementation. Beginning to develop AI strategy.",
+        "Established": "Good integration of AI/ML into key processes and products. Clear strategy for AI adoption. Team has necessary skills and resources for implementation.",
+        "Peak": "Advanced AI/ML integration that creates competitive advantages. Responsible AI practices are standard. Team leverages AI for productivity and product innovation."
+      }
     },
     { 
       "name": "Technical Research & POCs", 
       "description": "Systematic approach to exploring new technologies through research and proof of concepts. Includes evaluation frameworks, validation processes, and risk assessment.",
       "impact": "high", 
       "baseWeight": 0.7, 
-      "color": "#8b5cf6" 
+      "color": "#8b5cf6",
+      "maturityLevels": {
+        "Weak": "Technical research is rare or unstructured. No consistent approach to POCs. New technology adoption is based on hype rather than evidence.",
+        "Emerging": "Some technical research and POCs but without systematic evaluation. Research happens but findings aren't well-documented or shared.",
+        "Established": "Regular technical research with structured evaluation frameworks. POCs have clear success criteria and outcomes are documented. Research influences technical decisions.",
+        "Peak": "Comprehensive research program that evaluates promising technologies systematically. POCs are well-designed experiments with clear outcomes. Research findings directly inform technical strategy."
+      }
     },
     { 
       "name": "Innovation Time", 
       "description": "Dedicated time and resources for innovation and experimentation. Includes hackathons, innovation sprints, and self-directed exploration time.",
       "impact": "high", 
       "baseWeight": 0.7, 
-      "color": "#8b5cf6" 
+      "color": "#8b5cf6",
+      "maturityLevels": {
+        "Weak": "No dedicated time for innovation. All work is directed toward immediate deliverables. Innovation happens only outside working hours if at all.",
+        "Emerging": "Occasional innovation initiatives like hackathons, but irregular and with limited follow-through. Some time for exploration but often sacrificed for delivery pressures.",
+        "Established": "Regular innovation time is protected and valued. Innovation initiatives produce useful outcomes that sometimes influence product roadmaps. Balance between innovation and delivery.",
+        "Peak": "Innovation time is a core part of work. Regular innovation initiatives with strong follow-through mechanisms. Exploration consistently yields valuable insights that inform product and technical strategy."
+      }
     },
     { 
       "name": "Technical Strategy", 
       "description": "Long-term technical vision and roadmap development. Includes technology selection, architecture evolution, and alignment with business strategy.",
       "impact": "critical", 
       "baseWeight": 0.9, 
-      "color": "#8b5cf6" 
+      "color": "#8b5cf6",
+      "maturityLevels": {
+        "Weak": "No clear technical strategy exists. Technical decisions are reactive and tactical. Limited alignment between technical and business priorities.",
+        "Emerging": "Basic technical strategy exists but may not be well-communicated or fully aligned with business goals. Strategy influences some decisions but inconsistently.",
+        "Established": "Clear technical strategy with good alignment to business priorities. Strategy guides most technical decisions. Regular review and adaptation as needed.",
+        "Peak": "Comprehensive technical strategy that provides strong competitive advantages. Perfect alignment with business goals. Technical vision inspires the team and influences organizational direction."
+      }
     }
   ]
 }
