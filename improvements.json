@@ -4,7 +4,13 @@
       "name": "Documentation", 
       "description": "Quality and accessibility of technical documentation, including architecture decisions, APIs, and system behaviors. Focuses on keeping documentation current, clear, and useful for both new and existing team members.",
       "impact": "high", 
-      "baseWeight": 0.7, 
+      "baseWeight": 0.75, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#3b82f6",
       "maturityLevels": {
         "Weak": "Documentation is sparse or outdated. New team members struggle to understand systems and processes. Knowledge is primarily tribal and not captured systematically.",
@@ -18,6 +24,12 @@
       "description": "Overall system design quality, including scalability, maintainability, and technical debt management. Covers architectural decisions, patterns, and system evolution strategies.",
       "impact": "critical", 
       "baseWeight": 0.9, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#3b82f6",
       "maturityLevels": {
         "Weak": "Architecture is ad hoc with significant technical debt. Systems lack clear boundaries and have excessive coupling. Architectural decisions are poorly documented or inconsistent.",
@@ -31,6 +43,12 @@
       "description": "Comprehensive testing practices including unit, integration, and end-to-end testing. Focuses on test coverage, quality, and automation to ensure reliable software delivery.",
       "impact": "critical", 
       "baseWeight": 0.9, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#3b82f6",
       "maturityLevels": {
         "Weak": "Testing is manual and ad hoc. Test coverage is low or unmeasured. Regressions are common, and quality issues are frequently discovered in production.",
@@ -43,7 +61,13 @@
       "name": "Security & Compliance", 
       "description": "Implementation of security best practices, vulnerability management, and compliance requirements. Ensures protection of systems, data, and adherence to regulatory standards.",
       "impact": "critical", 
-      "baseWeight": 0.9, 
+      "baseWeight": 0.95, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#3b82f6",
       "maturityLevels": {
         "Weak": "Security is reactive with minimal proactive measures. Vulnerabilities are addressed only after incidents. Compliance requirements are poorly understood or inconsistently implemented.",
@@ -56,7 +80,13 @@
       "name": "Performance", 
       "description": "System performance optimization, including response times, resource utilization, and scalability. Focuses on maintaining high performance standards and efficient resource usage.",
       "impact": "high", 
-      "baseWeight": 0.7, 
+      "baseWeight": 0.8, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#3b82f6",
       "maturityLevels": {
         "Weak": "Performance is addressed reactively when issues arise. No systematic monitoring or optimization. Performance bottlenecks often impact users.",
@@ -71,7 +101,13 @@
       "name": "CI/CD", 
       "description": "Continuous integration and delivery pipeline implementation. Focuses on automation, reliability, and efficiency of the build, test, and deployment processes.",
       "impact": "critical", 
-      "baseWeight": 0.9, 
+      "baseWeight": 0.85, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#10b981",
       "maturityLevels": {
         "Weak": "Manual deployments with minimal automation. No consistent CI process. Deployments are risky, error-prone, and time-consuming.",
@@ -85,6 +121,12 @@
       "description": "Team's ability to plan, forecast, and reliably deliver on commitments. Includes sprint planning, estimation accuracy, and delivery consistency.",
       "impact": "high", 
       "baseWeight": 0.7, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#10b981",
       "maturityLevels": {
         "Weak": "Team commitments are frequently missed. Planning is inconsistent or ineffective. Significant variance between estimates and actual delivery.",
@@ -97,7 +139,13 @@
       "name": "Individual Commitments", 
       "description": "Individual team members' ability to manage and deliver their assigned tasks effectively. Focuses on personal accountability and delivery reliability.",
       "impact": "medium", 
-      "baseWeight": 0.5, 
+      "baseWeight": 0.6, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#10b981",
       "maturityLevels": {
         "Weak": "Individual contributors frequently miss deadlines or deliver incomplete work. Task management is inconsistent, and dependencies are often blocked.",
@@ -110,7 +158,13 @@
       "name": "Maintenance", 
       "description": "Ongoing system maintenance practices, including updates, patches, and technical debt management. Ensures long-term system health and reliability.",
       "impact": "high", 
-      "baseWeight": 0.7, 
+      "baseWeight": 0.75, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#10b981",
       "maturityLevels": {
         "Weak": "Maintenance is reactive and often delayed. Systems run on outdated dependencies. Technical debt accumulates with little attention.",
@@ -123,7 +177,13 @@
       "name": "Monitoring", 
       "description": "System monitoring and observability practices, including metrics collection, alerting, and incident detection. Ensures proactive issue identification and resolution.",
       "impact": "critical", 
-      "baseWeight": 0.9, 
+      "baseWeight": 0.85, 
+      "maturityWeightModifiers": {
+        "Weak": 0.15,
+        "Emerging": 0.07,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#10b981",
       "maturityLevels": {
         "Weak": "Minimal monitoring in place. Issues are typically discovered through user reports. Little visibility into system health or performance.",
@@ -137,6 +197,12 @@
       "description": "Implementation and tracking of key engineering metrics including DORA metrics (Deployment Frequency, Lead Time, Change Failure Rate, Time to Restore) and other performance indicators.",
       "impact": "high", 
       "baseWeight": 0.7, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#10b981",
       "maturityLevels": {
         "Weak": "Few or no engineering metrics are tracked. Decision-making is based on intuition rather than data. Performance measurement is subjective.",
@@ -150,6 +216,12 @@
       "description": "Effectiveness of incident response processes, including detection, resolution, and post-mortems. Focuses on minimizing downtime and improving system reliability.",
       "impact": "critical", 
       "baseWeight": 0.9, 
+      "maturityWeightModifiers": {
+        "Weak": 0.15,
+        "Emerging": 0.07,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#10b981",
       "maturityLevels": {
         "Weak": "Ad hoc incident response with no formal process. Poor coordination during incidents. Limited or no post-incident analysis.",
@@ -164,7 +236,13 @@
       "name": "Feedback", 
       "description": "Effectiveness of feedback loops within the team and with stakeholders. Includes code reviews, retrospectives, and continuous improvement processes.",
       "impact": "high", 
-      "baseWeight": 0.8, 
+      "baseWeight": 0.75, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#f97316",
       "maturityLevels": {
         "Weak": "Feedback is infrequent and often perceived as criticism. Code reviews are superficial or inconsistent. Retrospectives rarely lead to meaningful changes.",
@@ -178,6 +256,12 @@
       "description": "Process and effectiveness of new team member onboarding. Includes documentation, mentoring, and getting new members productive quickly.",
       "impact": "high", 
       "baseWeight": 0.7, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#f97316",
       "maturityLevels": {
         "Weak": "Onboarding is informal and inconsistent. New team members struggle to become productive. Little documentation or structured support exists.",
@@ -190,7 +274,13 @@
       "name": "Ownership", 
       "description": "Clear ownership and responsibility for different parts of the system. Ensures accountability and proper maintenance of system components.",
       "impact": "critical", 
-      "baseWeight": 0.9, 
+      "baseWeight": 0.85, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#f97316",
       "maturityLevels": {
         "Weak": "Ownership is unclear or undefined. Systems and features lack clear owners. Maintenance and improvements happen reactively or not at all.",
@@ -203,7 +293,13 @@
       "name": "Knowledge Sharing", 
       "description": "Practices and culture around sharing technical knowledge within the team. Includes documentation, presentations, pair programming, and mentoring.",
       "impact": "critical", 
-      "baseWeight": 0.9, 
+      "baseWeight": 0.85, 
+      "maturityWeightModifiers": {
+        "Weak": 0.15,
+        "Emerging": 0.07,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#f97316",
       "maturityLevels": {
         "Weak": "Knowledge is siloed with few sharing mechanisms. Documentation is sparse or outdated. Single points of failure exist due to specialized knowledge.",
@@ -216,7 +312,13 @@
       "name": "UX Dependencies", 
       "description": "Management of dependencies and collaboration with UX/UI teams. Ensures smooth integration of design and development work.",
       "impact": "high", 
-      "baseWeight": 0.7, 
+      "baseWeight": 0.65, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#f97316",
       "maturityLevels": {
         "Weak": "Collaboration with UX/UI teams is reactive and often contentious. Handoffs are disorganized with frequent misunderstandings. Design implementation often varies from intent.",
@@ -229,7 +331,13 @@
       "name": "Cross-team Dependencies", 
       "description": "Management of dependencies and collaboration with other technical teams. Includes communication, coordination, and alignment across team boundaries.",
       "impact": "critical", 
-      "baseWeight": 0.9, 
+      "baseWeight": 0.85, 
+      "maturityWeightModifiers": {
+        "Weak": 0.15,
+        "Emerging": 0.07,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#f97316",
       "maturityLevels": {
         "Weak": "Cross-team dependencies are major bottlenecks. Communication between teams is poor. Work is frequently blocked waiting for other teams.",
@@ -242,7 +350,13 @@
       "name": "DevEx", 
       "description": "Developer Experience including development environment, tools, and processes. Focuses on making the development workflow efficient and enjoyable.",
       "impact": "high", 
-      "baseWeight": 0.8, 
+      "baseWeight": 0.75, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#f97316",
       "maturityLevels": {
         "Weak": "Poor developer experience with frequent friction. Development environment setup is difficult. Tools and processes hinder rather than help productivity.",
@@ -252,23 +366,16 @@
       }
     },
     { 
-      "name": "Decision Making", 
-      "description": "Effectiveness and clarity of technical decision-making processes. Includes gathering input, evaluating options, making decisions, and communicating rationale.",
-      "impact": "critical", 
-      "baseWeight": 0.9, 
-      "color": "#f97316",
-      "maturityLevels": {
-        "Weak": "Decision-making is opaque or highly centralized. Decisions often lack clear rationale or documentation. Team members are often unaware of decisions until after they're made.",
-        "Emerging": "Some decision-making processes exist but aren't consistently followed. Decisions are documented inconsistently. Team involvement in decisions varies.",
-        "Established": "Clear decision-making processes with appropriate team involvement. Decisions are documented with rationale. Team members understand how and why decisions are made.",
-        "Peak": "Excellent decision-making processes balancing speed and inclusivity. Decisions include appropriate stakeholders and are well-documented. Architectural Decision Records (ADRs) or similar practices are standard."
-      }
-    },
-    { 
       "name": "Technical Mentorship", 
       "description": "Structured mentoring and growth support for engineers. Includes technical guidance, career development, and knowledge transfer.",
       "impact": "high", 
-      "baseWeight": 0.8, 
+      "baseWeight": 0.75, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#f97316",
       "maturityLevels": {
         "Weak": "Little or no formal mentorship. Engineers must find their own growth opportunities. Junior engineers struggle to advance their skills.",
@@ -283,7 +390,13 @@
       "name": "Technology", 
       "description": "Adoption and effective use of new technologies. Includes evaluation of new tools, frameworks, and platforms to improve development capabilities.",
       "impact": "critical", 
-      "baseWeight": 0.9, 
+      "baseWeight": 0.85, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#8b5cf6",
       "maturityLevels": {
         "Weak": "Technology choices are reactive or outdated. Little evaluation of new technologies. Tech stack limits rather than enables innovation.",
@@ -296,7 +409,13 @@
       "name": "Learning & Development", 
       "description": "Investment in team learning and skill development. Includes training, conferences, workshops, and continuous learning opportunities.",
       "impact": "critical", 
-      "baseWeight": 0.9, 
+      "baseWeight": 0.8, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#8b5cf6",
       "maturityLevels": {
         "Weak": "Minimal investment in learning and development. Training is infrequent and reactive. Team members must pursue growth on their own time.",
@@ -310,6 +429,12 @@
       "description": "Selection, implementation, and optimization of development tools and platforms. Focuses on improving team productivity through better tooling.",
       "impact": "high", 
       "baseWeight": 0.7, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#8b5cf6",
       "maturityLevels": {
         "Weak": "Development tools are outdated or poorly configured. Tool selection is ad hoc. Tools often create more friction than they solve.",
@@ -322,7 +447,13 @@
       "name": "AI/ML Integration", 
       "description": "Integration of AI and machine learning capabilities into development processes and products. Includes tooling, best practices, and responsible AI implementation.",
       "impact": "critical", 
-      "baseWeight": 0.9, 
+      "baseWeight": 0.85, 
+      "maturityWeightModifiers": {
+        "Weak": 0.15,
+        "Emerging": 0.07,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#8b5cf6",
       "maturityLevels": {
         "Weak": "Minimal or no AI/ML integration. Limited awareness of AI potential or implementation approaches. No strategy for AI adoption.",
@@ -335,7 +466,13 @@
       "name": "Technical Research & POCs", 
       "description": "Systematic approach to exploring new technologies through research and proof of concepts. Includes evaluation frameworks, validation processes, and risk assessment.",
       "impact": "high", 
-      "baseWeight": 0.7, 
+      "baseWeight": 0.65, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#8b5cf6",
       "maturityLevels": {
         "Weak": "Technical research is rare or unstructured. No consistent approach to POCs. New technology adoption is based on hype rather than evidence.",
@@ -348,7 +485,13 @@
       "name": "Innovation Time", 
       "description": "Dedicated time and resources for innovation and experimentation. Includes hackathons, innovation sprints, and self-directed exploration time.",
       "impact": "high", 
-      "baseWeight": 0.7, 
+      "baseWeight": 0.65, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#8b5cf6",
       "maturityLevels": {
         "Weak": "No dedicated time for innovation. All work is directed toward immediate deliverables. Innovation happens only outside working hours if at all.",
@@ -362,6 +505,12 @@
       "description": "Long-term technical vision and roadmap development. Includes technology selection, architecture evolution, and alignment with business strategy.",
       "impact": "critical", 
       "baseWeight": 0.9, 
+      "maturityWeightModifiers": {
+        "Weak": 0.1,
+        "Emerging": 0.05,
+        "Established": 0,
+        "Peak": -0.05
+      },
       "color": "#8b5cf6",
       "maturityLevels": {
         "Weak": "No clear technical strategy exists. Technical decisions are reactive and tactical. Limited alignment between technical and business priorities.",
